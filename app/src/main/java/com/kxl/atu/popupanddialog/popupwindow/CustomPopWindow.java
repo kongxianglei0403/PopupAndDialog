@@ -100,8 +100,7 @@ public class CustomPopWindow
      */
     public CustomPopWindow showAsLocation(View targetview,int gravity,int offx,int offy)
     {
-        if (mPopupWindow != null)
-        {
+        if (mPopupWindow != null){
             mPopupWindow.showAsDropDown(targetview, gravity, offx, offy);
         }
         return this;
